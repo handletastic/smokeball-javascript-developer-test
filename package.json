@@ -5,10 +5,19 @@
   "main": "./index.js",
   "author": "Smokeball Development Team",
   "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "scripts": {
     "test": "jest"
   },
   "dependencies": {
     "jest": "30.2.0"
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0"
   }
 }
