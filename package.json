@@ -11,6 +11,7 @@
     }
   },
   "scripts": {
+    "commit": "cz",
     "test": "jest"
   },
   "dependencies": {
